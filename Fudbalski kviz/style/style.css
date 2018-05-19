@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container-fluid {
+	padding: 0;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: .5rem;
+	background: grey;
+	text-align: center;
+}
+header h2 {
+	margin-left: 5rem;
+}
+
+header img {
+	height: 70px;
+	cursor: pointer;
+}
+
+main {
+	background: #eee url(../images/bg8.jpg) no-repeat;
+	height: 100vh;
+	background-size: 100% 100%;
+}
+
+.modal-header {
+	display: flex;
+	justify-content: space-between;
+}
+.modal-header > .modal-title {
+	flex: 5;
+}
+button.disabled {
+	cursor: not-allowed;
+	opacity: .7;
+}
+
+section.toHide {
+	display: none;
+	position: absolute;
+	background: white;
+	top: 15rem;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #333;
+	color: white;
+}
+section.toHide h2 {
+	font-size: 3rem;
+}
+section.toHide p{
+	text-align: center;
+}
+section.toHide img {
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+section.sekcijaPitanja .naslov {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 70px;
+	margin-bottom: -2rem;
+}
+
+section.sekcijaPitanja {
+	background: lightgrey;
+	display: none;
+	transform: translateY(60%);
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+section .pitanja {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+section .pitanja > * {
+	flex-basis: 50%;
+	border: 1px solid black;
+	cursor: pointer;
+	padding: .5rem;
+}
+section .pitanja > *:hover {
+	transition: all .5s ease;
+	background: #007bff;
+	color: white;
+}
+section .disabled {
+	background: grey;
+	opacity: .5;
+}
+span.tacno {
+	color:green !important;
+}
+span.netacno {
+	color: red !important;
+}
+.redniBr {
+	color: blue;
+}
+footer {
+	color: white;
+	background: black;
+	text-align: center;
+	padding:2rem;
+	font-size: 2rem;
+}

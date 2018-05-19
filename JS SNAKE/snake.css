@@ -1,0 +1,30 @@
+#snakeField {
+    border: 3px solid black;
+    height: 500px;
+    width: 500px;
+    margin: 3rem auto;
+    display: block;
+    background: url("img/ground.png");
+    background-size: cover;
+    position: relative;
+}
+#snakeField #snakeCanvas {
+    position: absolute;
+    top: 80px;
+    left: 26px;
+}
+
+#snakeField p#score {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    top: -10px;
+}
+
+#snakeField p#score span {
+    font-size: 2rem;
+    color: orange;
+    display: inline-block;
+
+}

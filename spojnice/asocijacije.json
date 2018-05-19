@@ -1,0 +1,95 @@
+[{
+        "A": {
+            "A1": "Kuhinja",
+            "A2": "Slano",
+            "A3": "Natrijum",
+            "A4": "Hlor",
+            "A": "So"
+        },
+        "B": {
+            "B1": "Kiseonik",
+            "B2": "Vodonik",
+            "B3": "Zedj",
+            "B4": "Casa",
+            "B": "Voda"
+        },
+        "C": {
+            "C1": "Humor",
+            "C2": "Zlato",
+            "C3": "Udovica",
+            "C4": "Noc",
+            "C": "Crno"
+        },
+        "D": {
+            "D1": "Odbojka",
+            "D2": "Obala",
+            "D3": "Suncobran",
+            "D4": "Pesak",
+            "D": "Plaza"
+        },
+        "Final": "More"
+    },
+    {
+        "A": {
+            "A1": "Prst",
+            "A2": "Teska",
+            "A3": "Lakat",
+            "A4": "Dlan",
+            "A": "Ruka"
+        },
+        "B": {
+            "B1": "Zagonetka",
+            "B2": "Matematika",
+            "B3": "Inteligencija",
+            "B4": "Misljenje",
+            "B": "Pamet"
+        },
+        "C": {
+            "C1": "Ljubav",
+            "C2": "Obaveza",
+            "C3": "Prsten",
+            "C4": "Deca",
+            "C": "Brak"
+        },
+        "D": {
+            "D1": "Bitka",
+            "D2": "Svetski",
+            "D3": "Lokalni",
+            "D4": "Politika",
+            "D": "Rat"
+        },
+        "Final": "Covek"
+    },
+    {
+        "A": {
+            "A1": "More",
+            "A2": "Radio",
+            "A3": "Udarni",
+            "A4": "Cunami",
+            "A": "Talas"
+        },
+        "B": {
+            "B1": "Avion",
+            "B2": "Sirena",
+            "B3": "Vikanje",
+            "B4": "Bubna opna",
+            "B": "Buka"
+        },
+        "C": {
+            "C1": "Zica",
+            "C2": "Koncert",
+            "C3": "Gudalo",
+            "C4": "Kljuc",
+            "C": "Violina"
+        },
+        "D": {
+            "D1": "Lenjost",
+            "D2": "Noc",
+            "D3": "Insekt",
+            "D4": "Mrav",
+            "D": "Cvrcak"
+        },
+        "Final": "Zvuk"
+    }
+
+]

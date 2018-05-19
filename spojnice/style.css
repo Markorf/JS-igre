@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: lightblue;
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 100vh;
+    border: 1px solid red;
+    position: relative;
+}
+
+body {
+    transition: background .5s ease;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    margin-top: .5rem;
+}
+
+header h3 {
+    margin-top: 1rem;
+}
+
+[class|=bodovi] {
+    border: 1px solid black;
+    padding: .7rem 1.5rem;
+}
+.blue {
+    background: blue !important;
+   color: white !important; 
+   transition: all .3s ease !important;
+}
+.red {
+    background: red !important;
+    color: white !important;
+    transition: all .3s ease !important;
+}
+#blue + div {
+    color: blue;
+    font-weight: bold;
+}
+#red + div {
+    color: red;
+    font-weight: bold; /* menjaju se oba ako stavim klasu umesto # */
+}
+.btn {
+    padding: 1rem 2rem;
+    cursor: pointer;
+    color: white;
+    background: orange;
+    border: none;
+    margin: 1rem;
+}
+.btn:hover {
+    background: #FF6946;
+    transition: all .3s linear;
+    font-weight: bold;
+}
+.timer {
+	text-align: center;
+}
+
+.sections-container {
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+    margin-top: 3rem;
+}
+.section-one {
+	flex: 1;
+	text-align: center;
+}
+.section-two {
+	flex: 1;
+	text-align: center;
+}
+
+.section-one > * {
+	border: 1px solid black;
+	padding: 1rem;
+	margin: 5px;
+}
+.section-two > * {
+	border: 1px solid black;
+	padding: 1rem;
+	margin: 5px;
+}
+.active {
+    background: orange;
+    transition: all 1s ease;
+}

@@ -1,0 +1,28 @@
+[
+	{	
+		"Naslov": "Povezite imena likova sa njihovom vrstom",
+		"Spojnica": [
+			["Silvester","Macak"],
+			["Mlata","Pas"],
+			["Baja","Patak"],
+			["Dzeri","Mis"],
+			["Manfred","Mamut"],
+			["Marti", "Zebra"],
+			["Glorija","Nilski konj"],
+			["Major","Pingvin"]
+		]
+	},
+	{	
+		"Naslov": "Povezite sportske rivale",
+		"Spojnica": [
+			["Rad","Vozdovac"],
+			["Kopenhagen","Bronbi"],
+			["AEK","Olimpijakos"],
+			["Legija","Polonija"],
+			["Sahtjor","Dinamo Kijev"],
+			["Milvol", "Vest hem"],
+			["Rapid","Austrija"],
+			["Apoel","Omonija"]
+		]
+	}
+]

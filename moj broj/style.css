@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursivesans-serif;
+}
+html {
+    background: #c6e5ef;
+    min-width: 600px;
+    height: 100vh;
+}
+#wrapper {
+    height: 100%;
+}
+header h1 {
+    text-align: center;
+    margin-top: 1rem;
+    color: green;
+}
+header .players {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+.players .player1, .players .player2 {
+    display: flex;
+    align-items: center;
+}
+.players .player1 .points, .players .player2 .points {
+    margin-left: 1rem;
+    background: #c1bdbd;
+    padding: .5rem 1.5rem;
+}
+
+.currentMove {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.time {
+    text-align: center;
+    margin: 2rem 0 2.5rem 0;
+}
+
+.numFields {
+    display: flex;
+    background: rgba(14, 131, 193, 0.21);
+    justify-content: space-around;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.numFields .left-side-nums {
+    display: flex;
+}
+.numFields .left-side-nums > * {
+    margin-right: 2rem;
+    border: 1px solid black;
+    padding: .3rem .5rem;
+}
+p.middleNum, p.biggNum {
+    border: 1px solid black;
+    padding: .3rem 1rem;
+    min-width: 60px;
+}
+
+.mainNum {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.mainNum span {
+    border: 1px solid black;
+    display: inline-block;
+    background: #f7cf62;
+    padding: .3rem 2rem;
+    
+}
+
+#mainAnswer {
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    padding: .3rem;
+    min-height: 2.5rem;
+    background: white;
+    margin: 3rem 0 2rem 0;
+}
+.btn-groups {
+    text-align: center;
+    border: 1px solid black;
+    
+}
+.btn-groups > * {
+    font-size: 1.5rem;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.stop {
+    margin: 0 auto;
+    display: block;
+    padding: .5rem .9rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.stop:hover {
+    transition: all .5s ease;
+    background: #0093ff;
+    color: white;
+}
+button.delete {
+    position: absolute;
+    margin-left: 5rem;
+    color: red;
+}
+.final {
+    margin: 2rem auto;
+    cursor: pointer;
+    display: block;
+    padding: 1rem;
+}
+.end:hover {
+    border: none;
+    transition: all .5s ease;
+    background: orange;
+}
+.red.active {
+    background: red;
+    color:white;
+    padding:.3rem;
+}
+.blue.active {
+    background: blue;
+    color:white;
+    padding:.3rem;
+}
+
+@media screen and (max-width:600px) {
+    
+    button.delete {
+    position: absolute;
+    margin-left: 1rem;
+    color: red;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background: rgba(211, 114, 0, 0.67);
+    justify-content: space-between;
+    color: white;
+    padding: 1rem;
+}
+
+.player1-answer > *, .player2-answer > * {
+    color: black;
+    display: inline-block;
+    background: white;
+    padding: .4rem;
+    margin-right: 2rem;
+}
+
+.add {
+    cursor: pointer;
+    text-align: center;
+}
+
+.number.disabled {
+    color: grey;
+    cursor: not-allowed;
+}

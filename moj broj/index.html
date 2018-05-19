@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Moj Broj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+   <div id="wrapper">
+        <header>
+           <h1>Moj Broj</h1>
+        <div class="players">
+            <div class="player1">
+                <p class="red active" id="firstPlayer">Igrac 1</p>
+                <p class="points">0</p>
+            </div>
+               <div class="player2">
+                <p id="secondPlayer" class="blue">Igrac 2</p>
+                <p class="points">0</p>
+            </div>
+        </div> <!-- end of players-->
+        </header>   
+        
+        <main>
+            <h2 class="currentMove">Igrac <span class="playerNum">1</span> je na potezu</h2>
+            <p class="time">Preostalo vreme : <span>10</span> sekundi</p>
+            <div class="numFields">
+               <div class="left-side-nums">
+                    <p data-max= '10' class="number add">1</p>
+                    <p data-max= '10' class="number add">2</p>
+                    <p data-max= '10' class="number add">3</p>
+                    <p data-max= '10' class="number add">4</p>
+                    <p data-max= '10' class="number add">5</p>
+                </div>
+                <p data-max = '30' class="number middleNum special add">10</p>
+                <p data-max = '150' class="number biggNum special add">50</p>
+            </div> <!-- end of num fields -->
+            <div class="mainNum"><span>350</span>
+            </div>
+            <button class="stop">Zaustavi brojeve</button>
+            <div id="mainAnswer"></div>
+            <div class="btn-groups">
+                <button data-prs = 'true' class = 'add'>(</button>
+                <button data-prs = 'true' class = 'add'>)</button>
+                <button class = 'add'>+</button>
+                <button class = 'add'>-</button>
+                <button class = 'add'>*</button>
+                <button class = 'add'>/</button>
+                <button class = 'delete'>⬅</button>
+            </div>
+         
+            <button class="final">Konacan odgovor</button> 
+        </main>
+    <footer>
+        <div class="player1-answer">
+            Rezultat -> <span class="rez-1">0</span>
+            Udaljenost -> <span class="udaljenost-1">0</span>
+        </div>
+        <div class="player2-answer">
+            Udaljenost -> <span class="udaljenost-2">0</span>
+            Rezultat -> <span class="rez-2">0</span>
+        </div>
+       
+    </footer>
+   </div> <!-- End of wrapper -->
+   <script src="script.js"></script>
+    
+</body>
+</html>

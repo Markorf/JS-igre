@@ -1,0 +1,36 @@
+[
+	{
+		"name": "Djani",
+		"pictures": ["radisa_01", "radisa_02", "radisa_03", "radisa_04", "radisa_05", "radisa_06", "radisa_07", "radisa_08"],
+		"path": "images/djani",
+		"sound": "sound/djani.mp3"
+	},
+
+	{
+		"name": "Boro",
+		"pictures": ["boro_01", "boro_02", "boro_03", "boro_04", "boro_05", "boro_06", "boro_07", "boro_08"],
+		"path": "images/boro",
+		"sound": "sound/boro.mp3"
+	},
+
+	{
+		"name": "Era",
+		"pictures": ["era_01", "era_02", "era_03", "era_04", "era_05", "era_06", "era_07", "era_08"],
+		"path": "images/era",
+		"sound": "sound/era.mp3"
+	},
+
+	{
+		"name": "Zorica",
+		"pictures": ["zoka_01", "zoka_02", "zoka_03", "zoka_04", "zoka_05", "zoka_06", "zoka_07", "zoka_08"],
+		"path": "images/zorica",
+		"sound": "sound/zoka.mp3"
+	},
+
+	{
+		"name": "Vesna",
+		"pictures": ["vesna_01", "vesna_02", "vesna_03", "vesna_04", "vesna_05", "vesna_06", "vesna_07", "vesna_08"],
+		"path": "images/vesna",
+		"sound": "sound/vesna.mp3"
+	}	
+]

@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.world{
+	position: fixed;
+	top:0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: #D0ECEE;
+}
+
+.road{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 130px;
+	right: 0;
+	width: 100%;
+	background: #B2B2B2;
+}
+
+.line{
+	position: absolute;
+	width: 100%;
+	top:50%;
+
+	border: 5px dashed white;
+}
+
+.car,.car1{
+	position: fixed;
+	bottom: 15px;
+	width: 200px;
+	z-index: 10;
+	height: 100px;
+	animation: drive 4s linear infinite ;
+}
+.car{
+	z-index: 11;
+}
+
+.car1{
+	bottom:65px;
+	animation: drive1 7s linear infinite ;
+	z-index: 5;
+}
+
+@keyframes drive1 {
+	from{
+		transform: translateX(-100%);
+	}
+	to{
+		transform: translateX(800%);
+	}
+}
+
+@keyframes drive {
+	from{
+		transform: translateX(-100%);
+	}
+	to{
+		transform: translateX(800%);
+	}
+}
+
+
+.traffic{
+	position: absolute;
+	left:70%;
+	top:-100%;
+	background: black;
+	width: 45px;
+	height: 100px;
+}
+.traffic:before{
+	content: '';
+	position: absolute;
+	height: 50px;
+	width: 15px;
+	background: black;
+	left:50%;
+	top:100%;
+	transform: translateX(-50%);
+}
+.stop{
+	position: absolute;
+	left:55%;
+	top:80%;
+	height: 10px;
+	width: 220px;
+	background: orange;
+}
+
+.circle{
+	position: absolute;
+	z-index: 15;
+	margin: 5px;
+	width: 75%;
+	height: 35px;
+	border-radius: 50%;
+	background: white;
+	opacity: .6;
+}
+
+.circle.active{
+	opacity: 1;
+}
+.red{
+	background: red;
+}
+
+.green{
+	background: #157815;
+	top:50%;
+	margin-top: 0px;
+}
+.car.rotation{
+	border: 4px solid red;
+}
+
+
+.car.rotation1{
+	border: 4px solid green;
+}
+

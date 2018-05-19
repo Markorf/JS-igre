@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Asocijacije</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <header>
+            <h3 id="red" class="firstPlayer">Igrac 1</h3>
+            <div class="bodovi-A">0</div>
+            <h1>Asocijacije</h1>
+            <h3 id="blue" class="secondPlayer">Igrac 2</h3>
+            <div class="bodovi-B">0</div>
+        </header>
+
+        <div class="section-1" data-letter='A'>
+            <div class="first" data-attr = "myData">
+                A1
+            </div>
+            <div class="second" data-attr = "myData">
+                A2
+            </div>
+            <div class="third" data-attr = "myData">
+                A3
+            </div>
+            <div class="fourth" data-attr = "myData">
+                A4
+            </div>
+            <form action="">
+                <input disabled="true" class="answerA" type="text" placeholder="Odgovor">
+            </form>
+        </div>
+        <!-- end of section -->
+
+        <div class="section-2" data-letter='B'>
+            <div class="first" data-attr="myData">
+                B1
+            </div>
+            <div class="second" data-attr="myData">
+                B2
+            </div>
+            <div class="third" data-attr="myData">
+                B3
+            </div>
+            <div class="fourth" data-attr="myData">
+                B4
+            </div>
+            <form action="">
+                <input disabled="true" type="text" class="answerB" placeholder="Odgovor">
+            </form>
+        </div>
+        <!-- end of section -->
+
+        <div class="main-section">
+            <form class="mainForm" action="">
+                <input disabled="true" type="text" class="main-answer" placeholder="Konacno">
+            </form>
+        </div>
+
+        <div class="section-3" data-letter='C'>
+            <div class="first" data-attr="myData">
+                C1
+            </div>
+            <div class="second" data-attr="myData">
+                C2
+            </div>
+            <div class="third" data-attr="myData">
+                C3
+            </div>
+            <div class="fourth" data-attr="myData">
+                C4
+            </div>
+            <form action="">
+                <input disabled="true" type="text" class="answerC" placeholder="Odgovor">
+            </form>
+        </div>
+        <!-- end of section -->
+        <div class="section-4" data-letter='D'>
+            <div class="first" data-attr="myData">
+                D1
+            </div>
+            <div class="second" data-attr="myData">
+                D2
+            </div>
+            <div class="third" data-attr="myData">
+                D3
+            </div>
+            <div class="fourth" data-attr="myData">
+                D4
+            </div>
+            <form action="">
+                <input disabled="true" type="text" class="answerD" placeholder="Odgovor">
+            </form>
+        </div>
+        <!-- end of section -->
+        <aside>
+            <p class="timer">Preostalo vreme : <span>0</span> sekundi</p>
+            <button class="btn">Dalje</button>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

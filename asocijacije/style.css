@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: lightblue;
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 100vh;
+    border: 1px solid red;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    margin-top: .5rem;
+}
+
+header h3 {
+    margin-top: 1rem;
+}
+
+[class|=section] {
+    border: 1px solid black;
+    padding: 1rem;
+    position: absolute;
+    min-width: 150px;
+    display: inline-block;
+}
+
+[class|=section]>*:not(input) {
+    border: 1px solid grey;
+    padding: .2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.section-1 {
+    top: 20%;
+    left: 10%;
+}
+
+.section-2 {
+    top: 20%;
+    right: 10%;
+}
+
+.section-3 {
+    top: 60%;
+    left: 10%;
+}
+
+.section-4 {
+    top: 60%;
+    right: 10%;
+}
+
+aside {
+    text-align: center;
+}
+
+.main-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid black;
+    height: 70px;
+    width: 180px;
+    display: inline-block;
+    margin-top: -35px;
+    margin-left: -90px;
+    cursor: pointer;
+}
+.mainForm {
+    height: 100%;
+}
+
+.main-answer {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    padding: .4rem;
+    cursor: pointer;
+}
+
+[class|=bodovi] {
+    border: 1px solid black;
+    padding: .7rem 1.5rem;
+}
+.blue {
+    background: blue;
+   color: white; 
+   transition: all .3s ease;
+}
+.red {
+    background: red;
+    color: white;
+    transition: all .3s ease;
+}
+#blue + div {
+    color: blue;
+    font-weight: bold;
+}
+#red + div {
+    color: red;
+    font-weight: bold; /* menjaju se oba ako stavim klasu umesto # */
+}
+.btn {
+    padding: 1rem 2rem;
+    cursor: pointer;
+    color: white;
+    background: orange;
+    border: none;
+    margin: 1rem;
+}
+.btn:hover {
+    background: #FF6946;
+    transition: all .3s linear;
+    font-weight: bold;
+}

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #292929;
+  font-family: monospace, sans-serif;
+  overflow: hidden;
+}
+
+header {
+  background: #128fb7;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  transition: all .5s ease-out .2s;
+}
+
+section {
+  background: #eee;
+  display: flex;
+  color: #066c8b;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+section #newClrs {
+  padding: 3px;
+  cursor: pointer;
+}
+
+section .btn-wrap {
+  display: flex;
+}
+
+section .btn-wrap #easy, section .btn-wrap #hard {
+  padding: 3px;
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+section .active {
+  background: #066c8b;
+  color: white;
+}
+
+section #play {
+  color: black;
+  padding: 3px;
+}
+
+main .box-container {
+  width: 600px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .box-container .box {
+  background: blue;
+  height: 150px;
+  width: 30%;
+  margin: 1.66%;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out 0.1s;
+}
